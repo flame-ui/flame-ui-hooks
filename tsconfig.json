@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "./lib",
+    "moduleResolution": "node",
+    "lib": ["es6", "dom", "es2017"],
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "lib",
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["react", "jest"]
+  },
+  "exclude": ["lib", "node_modules"],
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
