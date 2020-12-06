@@ -1,6 +1,6 @@
 {
   "name": "@flame-ui/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "flame-ui hooks packages",
   "main": "lib/index.js",
   "module": "lib/esm/index.js",
@@ -8,6 +8,9 @@
   "repository": "git@github.com:flame-ui/flame-ui-hooks.git",
   "author": "Nick <nikolaymuller@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "yarn clean && rollup -c",
     "clean": "rimraf lib",
